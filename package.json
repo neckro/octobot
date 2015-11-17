@@ -1,0 +1,28 @@
+{
+  "name": "octobot",
+  "version": "0.0.1",
+  "description": "A flexible event-driven IRC bot",
+  "keywords": ["irc"],
+  "bugs": {
+    "url": "https://github.com/neckro/octobot/issues"
+  },
+  "license": "WTFPL",
+  "author": "Joseph Culbert <joseph@culbert.mn>",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://git@github.com:neckro/octobot.git"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.24",
+    "eventemitter2": "^0.4.14",
+    "irc": "^0.3.9",
+    "lodash": "^3.8.0",
+    "moment": "^2.10.2",
+    "sqlite3": "^3.1.1",
+    "start-stop-daemon": "^0.1.1"
+  },
+  "engines": {
+    "node": ">=0.12"
+  }
+}
