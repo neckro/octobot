@@ -1,0 +1,40 @@
+{
+    "rules": {
+        "indent": [
+            2,
+            2,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "quotes": [2,
+            "single",
+            {
+                "allowTemplateLiterals": true
+            }
+        ],
+        "linebreak-style": [
+            2,
+            "unix"
+        ],
+        "semi": [
+            2,
+            "always"
+        ],
+        "strict": 0,
+        "no-console": 1,
+        "no-unused-vars": [1,
+            {
+                "args": "none"
+            }
+        ],
+        "space-before-function-paren": [1, "always"]
+    },
+    "ecmaVersion": 6,
+    "env": {
+        "es6": true,
+        "node": true,
+        "browser": false
+    },
+    "extends": "eslint:recommended"
+}
